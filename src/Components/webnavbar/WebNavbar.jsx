@@ -1,66 +1,63 @@
-import React, { useState } from 'react'
-import './WebNavbar.scss'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import './WebNavbar.scss';
+import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { useNavigate } from 'react-router-dom';
+import AddBoxSharpIcon from '@mui/icons-material/AddBoxSharp';
 
+export default function WebNavbar() {
+  let [openMenu, setOpenMenu] = useState(false);
+  let [dropdown, setDropdown] = useState(false);
+  let navigate = useNavigate();
 
-export default function  WebNavbar() {
-  let [openmanu , setmanu] = useState(false)
-  let [dropdown , setDropdown] = useState(false)
-  let navigate = useNavigate()
-
-  function handelclicl(){
-    setmanu(!openmanu)
+  function handleClick() {
+    setOpenMenu(!openMenu);
   }
+
+  function handleDropdownClick() {
+    setDropdown(!dropdown);
+  }
+
   return (
     <>
     
     <nav>
     <img
     className='name'
-    src="/logoimage.jpeg" alt="" 
+    src="./images/logoimage.jpeg" alt="" 
     />
 
-      <div>
-       
-        <ul className={openmanu ? "navbar active" :"navbar"} >
-          <li><Link to='/'>Home</Link></li>
+        <div>
 
-          <li onMouseEnter={()=>setDropdown(true)}
-        
-          ><Link to='/about' 
-          
-          
-          >AboutUs</Link> 
-           <ul className={dropdown ? 'dropdown_link':'dropdown_hide'}
-          
-           onMouseLeave={()=>setDropdown(false)}
-           >
-            <li onClick={()=>navigate('/about/team')}>Team</li>
-            <li onClick={()=>navigate('/about/client')}>Client</li>
-            </ul>
+          <ul className={openMenu ? "navbar active" : "navbar"} onClick={handleDropdownClick}>
+            <li><Link to='/'>Home</Link></li>
+
+            <li>
+              <Link to='/about'>
+                AboutUs {<AddBoxSharpIcon className="plus-icon" style={{ fontSize: '18px' }} />}
+              </Link>
+              <ul className={dropdown ? 'dropdown_link' : 'dropdown_hide'}>
+                <li onClick={() => navigate('/about/team')}>Team</li>
+                <li onClick={() => navigate('/about/client')}>Client</li>
+              </ul>
             </li>
        
           <li><Link to='/service'>Services</Link></li>
           <li><Link to='/biochar'>BioCharProject</Link></li>
           <li><Link to='/career'>Career</Link></li>
           <li><Link to='/contact'>ContactUs</Link></li>
-           <li onClick={()=>navigate('/admin')}>admin</li>
 
-          
-        </ul>
-      </div>
-      
-      <div className='mobile' onClick={handelclicl}>{openmanu ?  < CloseIcon color='white' /> : <MenuIcon color='white' />  }
-      
-      
-      
-      </div>
-      
-    </nav>
-   
+
+          </ul>
+        </div>
+
+        <div className='mobile' onClick={handleClick}>
+          {openMenu ? <CloseIcon color='white' /> : <MenuIcon color='white' />}
+        </div>
+
+      </nav>
+
     </>
-  )
+  );
 }
