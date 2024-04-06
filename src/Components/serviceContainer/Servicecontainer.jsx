@@ -3,7 +3,7 @@ import './Servicecontainer.scss'
 const Servicecontainer = () => {
   return (
     <div className='services_container'>
-    <h1 className='service_heading1'><span>Service For</span> Bamboo Technology Center<br/> <img className='service_cntainer_image'  src="\leafimage.png" alt="" /></h1>
+    <h1 className='service_heading1'><span>Service For</span> Bamboo Technology Center<br/> <img className='service_cntainer_image'  src="./leafimage.png" alt="" /></h1>
    <div className="service_flex_container">
     <div  className="service_flex_container1">
     <h2 className='service_heading2'>Training for working with bamboo for promoting sustainable employment opportunities</h2>
