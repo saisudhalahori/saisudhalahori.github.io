@@ -10,7 +10,7 @@ const Client = () => {
       <WebNavbar />
         <div className="client_main_container">
 
-            <h1 className='client_heading'>Our <span className='client_span'>Clients</span><br/><img src="\public\leafimage.png" alt="" /></h1>
+            <h1 className='client_heading'>Our <span className='client_span'>Clients</span><br/><img src="\leafimage.png" alt="" /></h1>
             </div>
             <div className='client_main_imgdiv'>
                 <div>
