@@ -1,12 +1,13 @@
 import React from 'react'
 import './Team.scss'
 import Webnavbar from '../webnavbar/WebNavbar'
+import WebFooter from '../webfooter/WebFooter'
 
 const Team = () => {
   return (<>
     <Webnavbar />
     <div className='team'>
-    <h1 className='heading1'>Our<span id='main_span'>Team</span><br/><img src="\public\leafimage.png" alt="" /></h1>
+    <h1 className='heading1'>Our<span id='main_span'>Team</span><br/><img src="\leafimage.png" alt="" /></h1>
 
     <h2 className='heading2'>MR. Rahul Saksena, <span>(Chief Executive)</span></h2>
     <p>Bachelor Degree in Civil Engineering from SGSITS Indore,
@@ -27,6 +28,7 @@ Worked with Total Solar for Three years.</p>
 <p>Bachelor Degree in Electronics Engineering from RGTU Bhopal,
 About 12 years Professional Experience in Carbon Offset/Removal Projects, Energy Audit, Renewable Energy based projects Including biomass gasification, waste to energy, Solar energy, distributed generation, power plant operation & maintenance, preparation of detailed project report(DPR) for village electrification under DDG program of Govt of India.</p>
     </div>
+     <WebFooter />
     </>
   )
 }
