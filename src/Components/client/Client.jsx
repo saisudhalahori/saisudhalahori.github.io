@@ -41,7 +41,7 @@ const Client = () => {
             </div>
 
       
-        <WebFooter />
+            <WebFooter />
         </div>
        
   )
