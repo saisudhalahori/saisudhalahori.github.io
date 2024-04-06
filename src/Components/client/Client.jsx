@@ -14,29 +14,29 @@ const Client = () => {
             </div>
             <div className='client_main_imgdiv'>
                 <div>
-            <img className='client_image' src="\public\walmi.png" alt="image" />
-            <img className='client_image' src="\public\FES.jpg" alt="image" />
-            <img className='client_image' src="\public\adityabirla_grasim.jpg" alt="image" />
-            <img className='client_image' src="\public\adityabirla_HIndalco.jpg" alt="image" />
+            <img className='client_image' src="\walmi.png" alt="image" />
+            <img className='client_image' src="\FES.jpg" alt="image" />
+            <img className='client_image' src="\adityabirla_grasim.jpg" alt="image" />
+            <img className='client_image' src="\adityabirla_HIndalco.jpg" alt="image" />
             </div>
             <br/>
             <div>
-            <img className='client_image' src="\public\IIT Roorkee.jpg" alt="image" />
-            <img className='client_image' src="\public\JREDA.jpg" alt="image" />
-            <img className='client_image' src="\public\Ministry of Forest and Farmerwalfare.jpg" alt="image" />
-            <img className='client_image' src="\public\MP Forest Department.jpg" alt="image" />
+            <img className='client_image' src="\IIT Roorkee.jpg" alt="image" />
+            <img className='client_image' src="\JREDA.jpg" alt="image" />
+            <img className='client_image' src="\Ministry of Forest and Farmerwalfare.jpg" alt="image" />
+            <img className='client_image' src="\MP Forest Department.jpg" alt="image" />
             </div>
             <div>
-            <img className='client_image' src="\public\MPSTDC.jpg" alt="image" />
-            <img className='client_image' src="\public\MPUVN.jpg" alt="image" />
-            <img className='client_image' src="\public\PWC.png" alt="image" />
-            <img className='client_image' src="\public\GTZ international.jpg" alt="image" />
+            <img className='client_image' src="\MPSTDC.jpg" alt="image" />
+            <img className='client_image' src="\MPUVN.jpg" alt="image" />
+            <img className='client_image' src="\PWC.png" alt="image" />
+            <img className='client_image' src="\GTZ international.jpg" alt="image" />
             </div>
             <div>
-            <img className='client_image' src="\public\NTPC.jpg" alt="image" />
-            <img className='client_image' src="\public\UPNEDA.jpg" alt="image" />
-            <img className='client_image' src="\public\AMPRI BHOPAL.png" alt="image" />
-            <img className='client_image' src="\public\inseda.jpg" alt="image" />
+            <img className='client_image' src="\NTPC.jpg" alt="image" />
+            <img className='client_image' src="\UPNEDA.jpg" alt="image" />
+            <img className='client_image' src="\AMPRI BHOPAL.png" alt="image" />
+            <img className='client_image' src="\inseda.jpg" alt="image" />
             </div>
             </div>
 
