@@ -20,7 +20,7 @@ export default function  WebNavbar() {
     <nav>
     <img
     className='name'
-    src="./images/logoimage.jpeg" alt="" 
+    src="/logoimage.jpeg" alt="" 
     />
 
       <div>
