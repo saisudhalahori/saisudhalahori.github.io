@@ -47,6 +47,7 @@ export default function  WebNavbar() {
           <li><Link to='/biochar'>BioCharProject</Link></li>
           <li><Link to='/career'>Career</Link></li>
           <li><Link to='/contact'>ContactUs</Link></li>
+          <li><Link to='/admin'>ContactUs</Link></li>
 
           
         </ul>
