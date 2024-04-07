@@ -40,7 +40,7 @@ steel / cement manufacturing<br/>
 - Decarbonisation of manufacturing processes in steel , Cement , chemical and textile sectors<br/>
 - Preparation of feasibility reports and detailed project reports for clean power generation from biomass
 gasification, solar PV and compressed biogas from waste.<br/>
-- Consulting services for production of green hydrogen.<br/><br/>
+- Consulting services for production of green hydrogen.<br/>
 - Industrial Pollution Control and Environment Monitoring and Management.<br/>
 - Environment Impact Assessment and Hazardous waste management.<br/>
 - Hydrological and Meteorological studiesfor thermal power plants.<br/>
@@ -49,7 +49,7 @@ gasification, solar PV and compressed biogas from waste.<br/>
 - Resettlement and Rehabilitation studies.<br/>
 - Energy transition strategies.<br/>
 - Energy Audits for energy conservation.<br/>
-- Facilitation of bamboo plantation on degraded forest / waste land for biomass fuel.<br/>
+- Facilitation of bamboo plantation on degraded forest / waste land for biomass fuel.<br/><br/>
 
 With reference to our discussion in your office on 6.02.2024 ,we are pleased to offer our consulting services for
 carbon footprint mapping , science based targets for net zero emissions , nature based solutions and other
