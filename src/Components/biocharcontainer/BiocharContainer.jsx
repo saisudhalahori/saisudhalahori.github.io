@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Biocharcontainer.scss'
 
 
 const BiocharContainer = () => {
+  const [show,setShow] = useState(false)
+  const [open, setOpen] = useState(false)
+
+  const handleClick = (e) => {
+    setShow(prv=>!prv)
+}
+const secondhandleClick = (e) => {
+  setOpen(prv=>!prv)
+}
   return (
     <div className='biochar_container'>
 <div className='biochar_div1'>
@@ -22,8 +31,71 @@ CROP PRODUCTION <br/>• INCREASES SOIL ORGANIC MATTER<br/>
 • GREATER RETENTION OF WATER IN DRY SOILS.<br/>
 •  IMPROVES GERMINATION.<br/>
 • IMPROVES PLANT RESISTANCE TO FUNGAL DISEASE, ROOT FEEDING NEMATODES AND INSECT INFESTATIONS
-ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE MITIGATION.LARGE AMOUNTS OF FORESTRY AND AGRICULTURAL RESIDUES AND OTHER BIOMASS ARE CURRENTLY BURNED OR LEFT TO DECOMPOSE THEREBY RELEASING CARBON DIOXIDE (CO2) AND/OR METHANE (CH4)—TWO MAIN GREENHOUSE GASES (GHGS)—INTO THE ATMOSPHERE. UNDER BIOCHAR CONVERSION SCENARIOS, EASILY MINERALIZED CARBON COMPOUNDS IN BIOMASS ARE CONVERTED INTO FUSED CARBON RING STRUCTURES IN BIOCHAR AND PLACED IN SOILS WHERE THEY PERSIST FOR HUNDREDS OR THOUSANDS OF YEARS. WHEN DEPLOYED ON A GLOBAL SCALE THROUGH THE CONVERSION OF GIGATONNES OF BIOMASS INTO BIOCHAR, STUDIES HAVE SHOWN THAT BIOCHAR HAS THE POTENTIAL TO MITIGATE GLOBAL CLIMATE CHANGE BY DRAWING DOWN ATMOSPHERIC GHG CONCENTRATIONS . BIO CHAR ALSO IDENTIFIES AS CLIMATE CHANGE MITIGATION AGENT BY IPCC (INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE). //EFFECT OF BIOCHAR ON DIFFERENT SOIL PROPERTIES</p>
+ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE MITIGATION.LARGE AMOUNTS OF FORESTRY AND AGRICULTURAL RESIDUES AND OTHER BIOMASS ARE CURRENTLY BURNED OR LEFT TO DECOMPOSE THEREBY RELEASING CARBON DIOXIDE (CO2) AND/OR METHANE (CH4)—TWO MAIN GREENHOUSE GASES (GHGS)—INTO THE ATMOSPHERE. UNDER BIOCHAR CONVERSION SCENARIOS, EASILY MINERALIZED CARBON COMPOUNDS IN BIOMASS ARE CONVERTED INTO FUSED CARBON RING STRUCTURES IN BIOCHAR AND PLACED IN SOILS WHERE THEY PERSIST FOR HUNDREDS OR THOUSANDS OF YEARS. WHEN DEPLOYED ON A GLOBAL SCALE THROUGH THE CONVERSION OF GIGATONNES OF BIOMASS INTO BIOCHAR, STUDIES HAVE SHOWN THAT BIOCHAR HAS THE POTENTIAL TO MITIGATE GLOBAL CLIMATE CHANGE BY DRAWING DOWN ATMOSPHERIC GHG CONCENTRATIONS . BIO CHAR ALSO IDENTIFIES AS CLIMATE CHANGE MITIGATION AGENT BY IPCC (INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE). //EFFECT OF BIOCHAR ON DIFFERENT SOIL PROPERTIES.</p>
+{show && <div><br/>
+<table>
+<tr>
+    <th>Factore</th>
+    <th>Impact</th>
+    <th>Source</th>
+  </tr>
+  <tbody>
+  <tr>
+    <td>Cation exchange capacity</td>
+    <td>50% increase</td>
+    <td>(Glaser et al., 2002)</td>
+  </tr>
+  <tr>
+    <td>Fertilizer use efficiency</td>
+    <td>10-30 % increase</td>
+    <td>(Gaunt and Cowie, 2009)</td>
+  </tr>
+  <tr>
+    <td>Liming agent</td>
+    <td>1 point pH increase</td>
+    <td>(Lehman and Rondon, 2006)</td>
+  </tr>
+  <tr>
+    <td>Soil moisture retention Up to 18 % increase (Tryon, 1948)</td>
+    <td>Up to 18 % increase</td>
+    <td>(Tryon, 1948)</td>
+  </tr>
+  <tr>
+    <td>Productivity</td>
+    <td>20-120% increase</td>
+    <td>(Lehman and Rondon, 2006)</td>
+  </tr>
+  <tr>
+    <td>Methane emission</td>
+    <td>100% decrease (Rondon et al, 2005)</td>
+    <td>(Rondon et al, 2005)</td>
+  </tr>
+  <tr>
+    <td>Nitrous oxide emissions</td>
+    <td>50 % decrease</td>
+    <td>(Yanai et al., 2007)</td>
+  </tr>
+  <tr>
+    <td>Bulk density Soil dependent</td>
+    <td>Soil dependenttd</td>
+    <td>(Laird, 2008)</td>
+  </tr>
+  <tr>
+    <td>Mycorrhizal fungi</td>
+    <td>40 % increase</td>
+    <td>(Warnock et al., 2007)</td>
+  </tr>
+  <tr>
+    <td>Biological nitrogen fixation</td>
+    <td>50-72% increase</td>
+    <td>(Lehman and Rondon, 2006)</td>
+  </tr>
 
+  </tbody>
+  </table>
+  </div>
+  }
+<button className='btnbtn newbtn' onClick={handleClick}>{show ? "Read Less": "Read More"}</button>
 </div>
 
 <div className='bio_subdiv2'>
@@ -33,7 +105,8 @@ ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE 
 </div>
 
   </div>
-  <button className='btnbtn newbtn'>Read More</button>
+  
+  {/* <button className='btnbtn newbtn' onClick={handleClick}>{show ? "Read Less": "Read More"}</button> */}
     
 
 </div>
@@ -57,20 +130,38 @@ ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE 
 • USE FOR INCREASING SHELF LIFE OF FRUITS AND VEGETABLES<br/>
 • FOR REMOVING UNDESIRABLE COMPONENTS & COLOR CORRECTION IN ALL TYPES OF INDUSTRIES.
 </p>
+ {open && <div>
+  <p className='bio_para'>
+• Powdered Activated Carbon<br/>
+• Granular Activated Carbon<br/>
+• Other Activated Carbon<br/>
+</p>
+<h2>End Use</h2><br/>
+<p className='bio_para'>
+• Water Treatment<br/>
+• Food & Beverage Processing<br/>
+• Pharmaceutical & Medical<br/>
+• Automotive<br/>
+• Air purification<br/>
+• Other End-Uses<br/>
+</p>
+</div>
+} 
 </div>
 
 <div className='bio_subdiv2'>
+{/* <button className='btnbtn newbtn' onClick={secondhandleClick}>{open ? "Read Less": "Read More"}</button> */}
 <img className='bio_container_img' src="\biocharimg2.jpg" alt="" />
 
 </div>
 
   </div>
-  <button className='btnbtn newbtn'>Read More</button>
+  {/* <button className='btnbtn newbtn' onClick={handleClick}>{show ? "Read Less": "Read More"}</button> */}
     
 
 </div>
 
-
+<button className='btnbtn newbtn' onClick={secondhandleClick}>{open ? "Read Less": "Read More"}</button>
 <div className='biochar_div1'>
   <div className='parent'>
   <div className='bio_subdiv1'>
@@ -86,7 +177,7 @@ ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE 
 </div>
 
 </div>
-  <button className='btnbtn newbtn'>Read More</button>
+  {/* <button className='btnbtn newbtn'>Read More</button> */}
     
 
 </div>
