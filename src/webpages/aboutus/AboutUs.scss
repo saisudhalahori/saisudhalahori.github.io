@@ -1,4 +1,4 @@
-.aboutus-details{
+.about-details{
     h1{
         font-size: 40px;
         cursor: pointer;
@@ -7,20 +7,47 @@
        margin-left: 60px;
 
     }
+
+    h3{
+        margin-left: 60px;
+        color: rgb(48, 37, 37);
+    }
     p{
         color: rgb(78, 70, 70);
-        font-size: 16px;
+        font-size: 15px;
         cursor: pointer;
         text-align: justify;
         margin-left: 60px;
         margin-right: 60px;
     }
+    table {
+        margin-left: 60px;
+        width: 50%;
+        border-collapse: collapse;
+     
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        border: 1px solid #ddd;
+        align-items: center;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 1024px) {
-    .aboutus-details {
+    .about-details {
       h1 {
         font-size: 30px;
         margin-top: 40px;
+        margin-left: 30px;
+      }
+  
+      h3 {
         margin-left: 30px;
       }
   
@@ -29,5 +56,11 @@
         margin-left: 30px;
         margin-right: 30px;
       }
+  
+      table {
+        margin-left: 30px;
+        width: 90%;
+      }
     }
   }
+  
