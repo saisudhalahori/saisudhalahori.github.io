@@ -24,7 +24,20 @@
             display: inline;
             font-size: 1.8rem;
           }
+        
         }
+        table{
+        border: 1px solid grey;
+          }
+          tr th {
+            border: 1px solid grey;
+            background-color: rgb(243, 235, 235);
+          }
+          tr td {
+            border: 1px solid grey;
+            color: rgb(117, 107, 107);
+            font-size: 16px;
+          }
       }
     }
   }
@@ -90,12 +103,11 @@
       width: 90%; /* Adjust width of text content */
       text-align: center; /* Center-align text content */
       margin-top: 20px; /* Adjust top margin for smaller screens */
+    
 
-      
       .bio_para{
         margin-left: -50px;
       }
-    
     }
    
     .bio_subdiv2 {
@@ -144,4 +156,7 @@
         border-radius: 4px;
       }
     }
+
+
  }
+ 
