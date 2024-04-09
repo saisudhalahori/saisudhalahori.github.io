@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your App Title</title>
 </head>
 <body>
+  <div id="root"></div>
+  <!-- Add script for redirection -->
   <script>
     // Get the current URL path and query parameters
     var currentUrl = window.location.pathname + window.location.search;
     // Encode the URL
     var encodedUrl = encodeURIComponent(currentUrl);
     // Redirect to the root page with the original URL as a query parameter
-    window.location.href = '/' + encodedUrl;
+    window.location.href = '/?url=' + encodedUrl;
   </script>
-  <p>If you are not redirected automatically, <a href="/encodeURIComponent(url)%>">click here</a>.</p>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>
