@@ -9,7 +9,7 @@ import Team from './Components/team/Team'
 import Client from './Components/client/Client'
 import Career from './webpages/career/Career'
 
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { HashRouter, Routes, Route} from 'react-router-dom'
 
 import './App.css';
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <div className="App">
  
 
-        <BrowserRouter>
+        <HashRouter>
        
          <Routes >
          <Route index element={<Home />} />
@@ -40,7 +40,7 @@ function App() {
          <Route path='/career' element={<Career />}/>
          
         </Routes> 
-        </BrowserRouter>
+        </HashRouter>
       </div>
       
     </>
