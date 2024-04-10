@@ -12,7 +12,7 @@
     var pathSegmentsToKeep = 1;
 
     var l = window.location;
-    var decodedSearch = l.search
+    var decodedSearch = decodeURIComponent(l.search)
       .slice(1)
       .split("&")
       .map(function (s) {
@@ -20,7 +20,7 @@
       })
       .join("&");
 
-    var decodedPathname = l.pathname
+    var decodedPathname = decodeURIComponent(l.pathname)
       .slice(1)
       .split("/")
       .slice(pathSegmentsToKeep)
