@@ -8,7 +8,7 @@ import ContactUs from './webpages/contactus/ContactUs'
 import Team from './Components/team/Team'
 import Client from './Components/client/Client'
 import Career from './webpages/career/Career'
-import AdminRout from './AdminRout.jsx'
+
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import './App.css';
@@ -24,7 +24,7 @@ function App() {
        
          <Routes >
          <Route index element={<Home />} />
-          <Route path='admin' element={<AdminRout />}/>
+          
 
          <Route path='/about' >
           <Route index element={<AboutUs />} />
