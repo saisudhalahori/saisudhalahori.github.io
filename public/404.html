@@ -3,19 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your App Title</title>
+  <title>404 Page Not Found</title>
+  <!-- Add any necessary styles here -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <div id="root"></div>
-  <!-- Add script for redirection -->
-  <script>
-    // Get the current URL path and query parameters
-    var currentUrl = window.location.pathname + window.location.search;
-    // Encode the URL
-    var encodedUrl = encodeURIComponent(currentUrl);
-    // Redirect to the root page with the original URL as a query parameter
-    window.location.href = '/?url=' + encodedUrl;
-  </script>
-  <script type="module" src="/src/main.js"></script>
+  <div class="container">
+    <h1>404 - Page Not Found</h1>
+    <p>The page you're looking for could not be found.</p>
+    <p>Go back to <a href="/">home</a>.</p>
+  </div>
 </body>
 </html>
