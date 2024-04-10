@@ -4,7 +4,7 @@ import Adminlogin from './Pages/adminlogin/Adminlogin'
 import User from './Pages/user/User'
 import Adminsingle from './Pages/adminsingle/Adminsingle'
 import Adminnew from './Pages/adminnew/Adminnew'
-import { Routes, Route, BrowserRouter, Navigate} from 'react-router-dom'
+import { Routes, Route, HashRouter, Navigate} from 'react-router-dom'
 import Enquiry from './Pages/adminenquiry/Enquiry'
 import Internship from './Pages/admininternship/Internship'
 import { useSelector } from 'react-redux'
@@ -19,7 +19,7 @@ const AdminRout = () => {
     return currentuser ? (children) : <Navigate to ='/admin/login' />
   }
   return (
-<BrowserRouter>
+<HashRouter>
 
 <Routes>
   <Route path='/admin'>
@@ -59,7 +59,7 @@ const AdminRout = () => {
   </Route>
 
 </Routes>
-</BrowserRouter>
+</HashRouter>
   
 
   )
