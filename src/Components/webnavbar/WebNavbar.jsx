@@ -30,10 +30,10 @@ export default function WebNavbar() {
 
         <div>
 
-          <ul className={openMenu ? "navbar active" : "navbar"} onClick={handleDropdownClick}>
+          <ul className={openMenu ? "navbar active" : "navbar"} >
             <li><Link to='/'>Home</Link></li>
 
-            <li>
+            <li onClick={handleDropdownClick}>
               <Link to='/about'>
                 AboutUs {<AddBoxSharpIcon className="plus-icon" style={{ fontSize: '18px' }} />}
               </Link>
