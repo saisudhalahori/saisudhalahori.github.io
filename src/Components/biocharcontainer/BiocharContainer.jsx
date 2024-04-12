@@ -166,7 +166,7 @@ ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE 
   <div className='parent'>
   <div className='bio_subdiv1'>
   
-<h1 className='bio_heading'><p id='product'>PRODUCT</p><span>Bamboo Charcoal</span> (Briquette)<br/><img src="\leafimage.png" alt="image" /></h1>
+<h1 className='bio_heading'><span>Bamboo Charcoal</span> (Briquette)<br/><img src="\leafimage.png" alt="image" /></h1>
 <p className='bio_para'>USED IN BIOMASS GASSIFIERS AS FUEL FOR THERMAL USE OR FOR ELECTRICITY PRODUCTION, BAMBOO CHARCOAL HAS A VERY HIGH CALORIFIC VALUE AND LOW ASH CONTENT AS COMPARED TO WOOD COAL.</p>
 
 </div>
