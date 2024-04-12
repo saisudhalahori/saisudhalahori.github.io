@@ -1,28 +1,47 @@
 // Login.scss
+
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+
   
     .login-form {
       width: 400px; /* Fixed width for desktop */
-      padding: 20px;
+      padding: 50px;
       border: 1px solid #ccc;
       border-radius: 5px;
+   
       background-color: #f9f9f9;
+   
   
       h2 {
         text-align: center;
         margin-bottom: 20px; /* Increase margin */
+        color: #0056b3;
+        font-weight: 800;
+        font-size: 25px;
+
+        img{
+            text-align: center;
+           justify-content: center;
+           align-items: center;
+           margin-left: 25px;
+        }
       }
   
       .input-group {
         margin-bottom: 20px; /* Increase margin */
+       
+
+      
   
         label {
           display: block;
           margin-bottom: 5px;
+       margin-left: 2px;
+      
+   
         }
   
         input {
@@ -31,6 +50,7 @@
           font-size: 16px;
           border: 1px solid #ccc;
           border-radius: 3px;
+          box-shadow: 10px 10px 10px 10px rgba($color: #cac1c1, $alpha: 1.3);
         }
       }
   
@@ -38,16 +58,23 @@
         width: 100%;
         padding: 10px;
         font-size: 16px; /* Increase font size */
+        font-weight: 600;
         background-color: #007bff;
         color: white;
         border: none;
         border-radius: 3px;
         cursor: pointer;
         transition: background-color 0.3s;
-  
+        box-shadow: 10px 10px 10px 10px rgba($color: #979292, $alpha: 1.3);
         &:hover {
           background-color: #0056b3;
         }
+      }
+  
+      .error-message {
+        color: red;
+        font-size: 14px;
+        margin-top: 10px;
       }
     }
   }
