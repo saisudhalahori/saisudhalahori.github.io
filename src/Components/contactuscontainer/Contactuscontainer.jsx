@@ -36,7 +36,7 @@ const Contactuscontainer = () => {
           
               <li><a href="#"><i className="fa-solid fa-house-user"></i> Pittrachhaya, Behind NLIU Kerwa Dam Road, Bhopal, Madhya Pradesh, India</a></li>
               <li><a href="#"><i className="fa-solid fa-envelope"></i>sustainableoptions.bhopal@gmail.com</a></li>
-              <li><a href="#"><i className="fa-solid fa-phone"></i>8827716689</a></li>
+              <li><a href="#"><i className="fa-solid fa-phone"></i>1111111111</a></li>
            
             
             </ul>
