@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { useNavigate } from 'react-router-dom';
-import AddBoxSharpIcon from '@mui/icons-material/AddBoxSharp';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 
 export default function WebNavbar() {
   let [openMenu, setOpenMenu] = useState(false);
@@ -35,7 +36,7 @@ export default function WebNavbar() {
 
             <li onClick={handleDropdownClick}>
               <Link to='/about'>
-                AboutUs {<AddBoxSharpIcon className="plus-icon" style={{ fontSize: '18px' }} />}
+                AboutUs {<ArrowDropDownIcon className="plus-icon" style={{ fontSize: '18px' }} />}
               </Link>
               <ul className={dropdown ? 'dropdown_link' : 'dropdown_hide'}>
                 <li onClick={() => navigate('/about/team')}>Team</li>
