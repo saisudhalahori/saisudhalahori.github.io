@@ -113,7 +113,7 @@ ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE 
 <div className='biochar_div1'>
   <div className='parent'>
   <div className='bio_subdiv1'>
-  <h2 className='bio_heading'><span>Activated Bamboo</span> (Charcoal)<br/><img src="\leafimage.png" alt="image" /></h2>
+  <h2 className='bio_heading'><span>Activated Charcoal </span><br/><img src="\leafimage.png" alt="image" /></h2>
    <p className='bio_para'>IT IS BASICALLY USED AS AN ABSORBANT AND DEODORIZER<br/>
 • PHARMACEUTICALS & BULK DRUG INDUSTRIES.<br/>
 • FERTILIZER UNITS & PETROLEUM REFINERIES AS A CATALYST CARRIER.<br/>
