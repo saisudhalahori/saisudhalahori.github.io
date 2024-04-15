@@ -50,8 +50,8 @@ const WebFooter = () => {
       <h3>Contact-Info</h3>
           <ul>
           <li><FmdGoodIcon /> Pittrachhaya, Behind NLIU Kerwa Dam Road, Bhopal, Madhya Pradesh, India</li>
-                <li><SettingsPhoneIcon /> +91 9340291613(Asia)<br/></li>
-                <li><SettingsPhoneIcon /> +91 9340291613(Asia)<br/></li>
+                <li><SettingsPhoneIcon /> +91 0000000000(Asia)<br/></li>
+                <li><SettingsPhoneIcon /> +91 1111111111(Asia)<br/></li>
                 <li><MailOutlineIcon />  saksena.rahul@gmail.com</li>
              </ul>
     </div>
