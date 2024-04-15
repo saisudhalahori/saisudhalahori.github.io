@@ -36,6 +36,7 @@ padding-top: 70px;
 }
 @media screen and (max-width: 768px) {
   .careercontainer {
+  height: 300px;
       h1 {
           margin-left: 20px;
           padding-top: 50px;
@@ -52,6 +53,7 @@ padding-top: 70px;
 
 @media screen and (min-width: 768px) {
   .careercontainer {
+  height: 300px;
       h1 {
           margin-left: 90px;
           padding-top: 150px;
@@ -69,6 +71,7 @@ padding-top: 70px;
 /* Media Query for screens with a minimum width of 600px */
 @media screen and (min-width: 600px) {
   .careercontainer {
+  height: 300px;
       h1 {
           margin-left: 90px;
           padding-top: 150px;
