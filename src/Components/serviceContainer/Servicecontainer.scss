@@ -1,7 +1,21 @@
-.services_container{
-    margin-left: 60px;
-  
+.service_main_comtainer{
+  background-image: url("https://www.tuvsud.com/-/media/regions/in/images/sustainability/ss_1761892640_circular-economy.png?pid=b69ad6de-1c55-4f5c-a159-2daca82f4453");
+  // background-repeat: no-repeat;
+  background-size: cover;
+height:500px ;
+h1{
+ position: relative;
+ top: 80px;
+ left: 100px;
+ color: #fff;
+ font-size: 40px;
+}
 
+}
+.services_container{
+
+    margin-left: 60px;
+ 
     .service_heading1{
         color: rgb(51, 41, 41);
         cursor: pointer;
@@ -14,8 +28,8 @@
     }
 
    h2.service_heading2{
-        color: rgb(49, 47, 47);
-        font-size: 22px;
+        color: rgb(75, 64, 64);
+        font-size: 20px;
         cursor: pointer;
         margin-top: 25px;
     }
@@ -30,19 +44,7 @@
         margin-top: 60px;
     }
 
-    
-
-    .service_flex_container1{
-        width: 50%;
-    }
-
-    .service_flex_container2{
-       width: 1000px;
-       height: auto;
-    text-align: center;
   
-    }
-
     .service_flex_container2,.service_img{
         border-radius: 10px;
         margin-top: 30px;
@@ -51,6 +53,12 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1024px){
+  .service_main_comtainer{
+  
+height: 200px;
+ 
+
+  }
     .services_container {
          margin-left: 30px; /* Adjust margin for smaller screens */
       
