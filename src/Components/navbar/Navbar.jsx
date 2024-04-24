@@ -84,7 +84,7 @@ const Navbar = () => {
             
           </div>
             <img
-              src={userInfo.img}
+              src={userInfo ? userInfo.img : "../Public/avatar img.jpg"}
               alt=""
               className="avatar"
               onClick={() => setDsplay(prev => !prev)}
