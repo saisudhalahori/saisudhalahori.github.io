@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './newadmin.scss'
+import './Adminnew.scss'
 import Sidebar from '../../Components/sidebar/Sidebar'
 import Navbar from '../../Components/navbar/Navbar'
 import DriveFolderUploadOutlinedIcon from '@mui/icons-material/DriveFolderUploadOutlined';
