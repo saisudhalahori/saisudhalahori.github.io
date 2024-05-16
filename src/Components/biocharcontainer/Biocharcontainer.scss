@@ -1,5 +1,8 @@
 .biochar_main{
- 
+position: relative;
+left: 20px;
+padding: 20px;
+
   overflow: hidden;
 .biochar_container{
   display: flex;
@@ -11,10 +14,12 @@
   .container_part1{
     background-color:#e1e5e7;
     width:50%;
-    position: relative;
-   left: 60px;
+//     position: relative;
+//    left: 50px;
+text-align: justify;
  margin-bottom: 80px;
-   
+   text-align: justify;
+   overflow-wrap: break-word;
 
   .heading{
   color:#84b41b;
@@ -29,6 +34,7 @@
     }
     .paragraph{
       background-color:#e1e5e7;
+   padding: 15px;
       text-transform: lowercase;
       text-align: justify;
       font-size: 16px;
@@ -43,9 +49,12 @@
       background-color:#e1e5e7;
       text-transform: lowercase;
       text-align: justify;
+      word-wrap: break-word; 
       font-size: 16px;
       position: relative;
       top:30px;
+      padding: 15px;
+ margin: 0 auto;
       // color: rgb(100, 89, 89);
       color: rgb(34, 31, 31);
     }
@@ -140,3 +149,4 @@
     }
   }
 }
+
