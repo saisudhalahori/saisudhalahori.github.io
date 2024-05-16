@@ -1,47 +1,69 @@
-.biochar_container {
-  margin-left: 60px;
+.biochar_main{
+ 
+.biochar_container{
+  display: flex;
+  position: relative;
+  top: 60px;
+ 
+  justify-content: space-between;
 
-  .biochar_div1 {
-    margin-top: 80px;
-    text-align: justify;
-    display: inline;
+  .container_part1{
+    background-color:#e1e5e7;
+    width:50%;
+    position: relative;
+   left: 60px;
+ margin-bottom: 80px;
+   
 
-    .parent {
-      display: flex;
-
-      .bio_subdiv1 {
-        width: 80%;
-        margin-top: 50px;
-
-        .bio_heading {
-          font-size: 28px;
-
-          span {
-            color: #84b41b;
-          }
-
-          p {
-            display: inline;
-            font-size: 1.8rem;
-          }
-        
-        }
-        table{
-        border: 1px solid grey;
-          }
-          tr th {
-            border: 1px solid grey;
-            background-color: rgb(243, 235, 235);
-          }
-          tr td {
-            border: 1px solid grey;
-            color: rgb(117, 107, 107);
-            font-size: 16px;
-          }
-      }
-    }
+  .heading{
+  color:#84b41b;
+    font-size: 30px;
+   
   }
+   
+      h4{
+      color: black;
+      font-size: 20px;
+    
+    }
+    .paragraph{
+      background-color:#e1e5e7;
+      text-transform: lowercase;
+      text-align: justify;
+      font-size: 16px;
+      position: relative;
+      top:30px;
+      // color: rgb(100, 89, 89);
+      color: rgb(34, 31, 31);
+      
+    
+    }
+    .bio_para{
+      background-color:#e1e5e7;
+      text-transform: lowercase;
+      text-align: justify;
+      font-size: 16px;
+      position: relative;
+      top:30px;
+      // color: rgb(100, 89, 89);
+      color: rgb(34, 31, 31);
+    }
+  
 
+  }
+  table{
+    border: 1px solid grey;
+      }
+      tr th {
+        border: 1px solid grey;
+        // background-color: rgb(243, 235, 235);
+      }
+      tr td {
+        border: 1px solid grey;
+        color: rgb(117, 107, 107);
+        font-size: 16px;
+      }
+  }
   button.newbtn {
     background: rgba(14, 90, 230, 0.842);
     width: 120px;
@@ -53,107 +75,67 @@
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
-  }
+    }
 
-  .bio_subdiv2 {
+  .container_part2{
+    // background-color: aquamarine;
     width: 50%;
-
-    .bio_container_img {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+    .bio_container_img{
+      position: relative;
+      top: 50px;
       width: 350px;
-      margin-left: 80px;
-      margin-top: 80px;
-      border-radius: 4px;
-    }
-  }
-
-  .biochar_div2 {
-    display: flex;
-    text-align: justify;
-  }
-
-  .biochar_div3 {
-    display: flex;
-    text-align: justify;
-  }
-
-  p.bio_para {
-    color: rgb(117, 107, 107);
-    font-size: 16px;
-    text-transform: lowercase;
-  }
-
-
-  @media only screen and (min-width: 0px) and (max-width: 1024px) {
-   
-
-    .biochar_div1 {
-
-      .parent{
-      flex-direction: column; /* Change flex direction to stack elements vertically */
-      align-items: center; /* Center-align child elements */
-      margin-top: 40px;
-      }
-       /* Adjust top margin for smaller screens */
-    
-
-    .bio_subdiv1 {
-      width: 90%; /* Adjust width of text content */
-      text-align: center; /* Center-align text content */
-      margin-top: 20px; /* Adjust top margin for smaller screens */
-    
-
-      .bio_para{
-        margin-left: -50px;
-      }
-    }
-   
-    .bio_subdiv2 {
-      width: 100%; /* Adjust width of image container */
-      text-align: center; /* Center-align image */
-      margin-top: 20px; /* Adjust top margin for smaller screens */
-     justify-content: center;
-     align-items: center;
-
-      .bio_container_img {
-      margin-left: auto;
-      margin-right: auto;
-    }
+    border-radius: 10px;
 
     }
-  }
-   
-
-    p.bio_para {
-      text-align: justify;
-      font-size: 14px; /* Reduce font size for smaller screens */
-    }
-
-    .bio_heading span {
-      font-size: 22px; /* Reduce font size for smaller screens */
-    }
-
-    // .biochar_container .bio_subdiv1 .bio_heading p {
-    //   display: inline;
-     
-    //   font-size: 1.4rem;
-    // }
-
     button.newbtn {
-      margin-top: 20px; /* Adjust top margin for smaller screens */
-    }
-
-      .biochar_container button.newbtn {
-        margin-top: 300px;
+      background: rgba(14, 90, 230, 0.842);
+      width: 120px;
+      height: 40px;
+      border-radius: 5px;
+      color: #fff;
+      border: none;
+      font-weight: 600;
+      font-size: 16px;
+      margin-top: 20px;
+   
+      cursor: pointer;
       }
-     
-      .biochar_container .bio_subdiv2 img.bio_container_img {
-        width: 350px;
-        margin-left: -90px;
+   
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+  .biochar_main {
+    .biochar_container {
+      flex-direction: column;
+      align-items: center;
+
+      .container_part1 {
+        width: 90%;
+        left: 0;
+        margin-bottom: 40px;
+      }
+
+      .container_part2 {
+        width: 90%;
+        text-align: center;
         margin-top: 20px;
-        border-radius: 4px;
+        margin-bottom: 40px;
+        
+        .bio_container_img {
+          width: 80%;
+          max-width: 300px;
+        }
+      }
+
+      button.newbtn {
+        width: 100%;
+    
+       
       }
     }
-
-
- }
- 
+  }
+}
