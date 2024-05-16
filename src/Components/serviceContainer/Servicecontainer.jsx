@@ -106,7 +106,7 @@ vital for meeting your net zero carbon emission targets and a better ESG rating.
 
   <div className='content-image'>
 <img src="\form.jpg" className="img1" alt="" />
-<img src="\cowinform.avif"  className="img2"  alt="" />
+<img src="\biocharimg3.jpg"  className="img2"  alt="" />
 <img src="\biochar4.jpg"  className="img3" alt="" />
   </div>
 
@@ -116,7 +116,7 @@ vital for meeting your net zero carbon emission targets and a better ESG rating.
     <div className='services-container'>
     <div className='content-image'>
 <img src="\form.jpg" className="img1" alt="" />
-<img src="\cowinform.avif"  className="img2"  alt="" />
+<img src="\biocharimg3.jpg"  className="img2"  alt="" />
 <img src="\biochar4.jpg"  className="img3" alt="" />
   </div>
   <div className='content-data'>
@@ -246,7 +246,7 @@ vital for meeting your net zero carbon emission targets and a better ESG rating.
 
   <div className='content-image'>
 <img src="\form.jpg" className="img1" alt="" />
-<img src="\cowinform.avif"  className="img2"  alt="" />
+<img src="\biocharimg3.jpg"  className="img2"  alt="" />
 <img src="\biochar4.jpg"  className="img3" alt="" />
   </div>
 
