@@ -115,9 +115,9 @@ vital for meeting your net zero carbon emission targets and a better ESG rating.
     {/* //////////second para////////////// */}
     <div className='services-container'>
     <div className='content-image'>
-<img src="\form.jpg" className="img1" alt="" />
-<img src="\biocharimg3.jpg"  className="img2"  alt="" />
-<img src="\biochar4.jpg"  className="img3" alt="" />
+<img src="\solar_img.jpg" className="img1" alt="" />
+<img src="\windmil_image.jpg"  className="img2"  alt="" />
+<img src="\biomass_img.jpg"  className="img3" alt="" />
   </div>
   <div className='content-data'>
   <h1 className='service_heading1'><span>Our services</span><br/> <img className='service_cntainer_image'  src="\leafimage.png" alt="" /></h1>
