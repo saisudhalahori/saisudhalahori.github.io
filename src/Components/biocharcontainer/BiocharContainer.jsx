@@ -134,6 +134,7 @@ ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE 
 </div>
   <br/>
 <div className="container_part1">
+  <br/>
  <h1 className="heading"><span>Activated Charcoal </span><br/><img src="\leafimage.png" alt="image" /></h1>
 <p className="paragraph">IT IS BASICALLY USED AS AN ABSORBANT AND DEODORIZER<br/>
 • PHARMACEUTICALS & BULK DRUG INDUSTRIES.<br/>
