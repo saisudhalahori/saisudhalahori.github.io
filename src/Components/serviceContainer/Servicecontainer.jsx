@@ -42,7 +42,8 @@ Explore the full spectrum of services we offer for a comprehensive <br/> experie
 <button className='btnbtn'><Link to="http://localhost:5173/#/">Reach us</Link></button>
 </div>
 </div>
-
+<br/>
+<hr/>
 {/* //////////////////////////////////////////////////////////////////////// */}
 <div className='services-container'>
   <div className='content-data'>
@@ -105,19 +106,20 @@ vital for meeting your net zero carbon emission targets and a better ESG rating.
 
 
   <div className='content-image'>
-<img src="\form.jpg" className="img1" alt="" />
-<img src="\biocharimg3.jpg"  className="img2"  alt="" />
-<img src="\biochar4.jpg"  className="img3" alt="" />
-  </div>
-
-</div>
-
-    {/* //////////second para////////////// */}
-    <div className='services-container'>
-    <div className='content-image'>
 <img src="\solar_img.jpg" className="img1" alt="" />
 <img src="\windmil_image.jpg"  className="img2"  alt="" />
 <img src="\biomass_img.jpg"  className="img3" alt="" />
+  </div>
+
+</div>
+<br/>
+<hr/>
+    {/* //////////second para////////////// */}
+    <div className='services-container'>
+    <div className='content-image'>
+<img src="\form.jpg" className="img1" alt="" />
+<img src="\cowinform.avif"  className="img2"  alt="" />
+<img src="\biochar4.jpg"  className="img3" alt="" />
   </div>
   <div className='content-data'>
   <h1 className='service_heading1'><span>Our services</span><br/> <img className='service_cntainer_image'  src="\leafimage.png" alt="" /></h1>
@@ -179,6 +181,8 @@ vital for meeting your net zero carbon emission targets and a better ESG rating.
 
 
 </div>
+<br/>
+<hr className='hrtag'/>
 {/* ///////////////////////third para///////////////// */}
 
 <div className='services-container'>
@@ -236,13 +240,9 @@ facilitation of carbon credits for them as well. All these verified carbon credi
 vital for meeting your net zero carbon emission targets and a better ESG rating..
 </p>
 </div>
-}
-<button className='btnbtn newbtn' onClick={() => handleClick('third')}>{showThird ? "Read Less": "Read More"}</button>
-  </div>
 
-
-  
- 
+} 
+<button className='btnbtn newbtn' onClick={() => handleClick('third')}>{showThird ? "Read Less": "Read More"}</button>   </div>
 
   <div className='content-image'>
 <img src="\form.jpg" className="img1" alt="" />
@@ -251,10 +251,10 @@ vital for meeting your net zero carbon emission targets and a better ESG rating.
   </div>
 
 </div>
-   
+<br/>
+
    </>
   )
 }
 
 export default Servicecontainer
-
