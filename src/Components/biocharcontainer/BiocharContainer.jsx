@@ -123,6 +123,7 @@ ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE 
     <img className='bio_container_img bio_container_img2' src="\biocharimg3.jpg"  alt="image" />
     </div>
     </div>
+   
 {/* ////////////////////////////////////////////////////////////////////////////////////////////////// */}
     
 <div className='biochar_container'>
@@ -174,6 +175,7 @@ ANOTHER VERY IMPORTANT APPLICATION OF BIOCHAR IS AS AN AGENT FOR CLIMATE CHANGE 
 </div>
 
 </div>
+
 {/* ////////////////////////////////////////////////////////////////////////////////// */}
 <div className='biochar_container'>
     <div className="container_part1">
@@ -216,9 +218,10 @@ This biochar can also be blended with organic manure to make bio fertilizer whic
 <img className='bio_container_img bio_container_img1 ' src="/biochar-application.png"  alt="image" /><br/>
 {/* <img className='bio_container_img bio_container_img2' src="\biocharimg3.jpg"  alt="image" /> */}
 </div>
+<br/>
 <div className="container_part1">
  <h1 className="heading"><span>Applications of Biochar </span><br/><img src="\leafimage.png" alt="image" /></h1>
-<p className="paragraph">Electrochemical,Catalysis, and Environmental Remediation. In additionto carbon sequestration, energy storage, gas puriﬁcation, watertreatment, and delivery of drugs, biochar has appeared as apractical resource for producing numerous innovative specialtymaterials such as carbon nanotubes, graphene’s, super-capacitors, as well as coloring vehicles and ﬁllers forcomposites. Carbon materials created at elevated temperatures(greater than 1200 °C) are likely to have encouraging electrochemicalproperties;70the advanced uses of activated carbon has beendemonstrated as electrode materials in electrochemical energyand fuel cell catalytic applications.The exceptional physiochemical properties of C-basedmaterials71have been exploited for use as an electrode asshown recently where corncob material was used to generateporous carbon via a thermal process;72higher surface area of1210 m2/g, with a vastly stabilized mesoporous conﬁguration,the ensuing carbon electrode displayed an excellent capaci-tance of 120 F/g in a symmetrical cell which endured 100 000cycles. In addition to their inexpensive nature and favorableecological inﬂuence, these C-based electrodes exhibited asuperior electrochemical function when compared to tradi-tional synthetic polymer-based carbonaceous materials.The gasiﬁcation of biochar is relatively slower than that ofbiomass as there is a rapid loss of mass from the later dueexpelled volatile constituents in addition to CO2and CO[92].73Some metal catalysts do increase the more active siteson the biochar surface via the adsorption of gasifying entitie
+<p className="paragraph">Electrochemical,Catalysis,and Environmental Remediation. In additionto carbon sequestration, energy storage, gas puriﬁcation, watertreatment, and delivery of drugs, biochar has appeared as apractical resource for producing numerous innovative specialtymaterials such as carbon nanotubes, graphene’s, super-capacitors, as well as coloring vehicles and ﬁllers forcomposites. Carbon materials created at elevated temperatures(greater than 1200 °C) are likely to have encouraging electrochemicalproperties;70the advanced uses of activated carbon has beendemonstrated as electrode materials in electrochemical energyand fuel cell catalytic applications.The exceptional physiochemical properties of C-basedmaterials71have been exploited for use as an electrode asshown recently where corncob material was used to generateporous carbon via a thermal process;72higher surface area of1210 m2/g, with a vastly stabilized mesoporous conﬁguration,the ensuing carbon electrode displayed an excellent capaci-tance of 120 F/g in a symmetrical cell which endured 100 000cycles. In addition to their inexpensive nature and favorableecological inﬂuence, these C-based electrodes exhibited asuperior electrochemical function when compared to tradi-tional synthetic polymer-based carbonaceous materials.The gasiﬁcation of biochar is relatively slower than that ofbiomass as there is a rapid loss of mass from the later dueexpelled volatile constituents in addition to CO2and CO[92].73Some metal catalysts do increase the more active siteson the biochar surface via the adsorption of gasifying entitie
 </p>
  {forth && <div>
   <p className='bio_para'><br/>
